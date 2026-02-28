@@ -50,7 +50,7 @@ class ForegroundInfoHandler(scope: CoroutineScope, installer: InstallerRepo) :
         private const val XMSF_PACKAGE_NAME = "com.xiaomi.xmsf"
 
         // The duration to keep the network blocked to bypass Xiaomi's notification scanner
-        private const val XIAOMI_MAGIC_BLIND_WINDOW_MS = 100L
+        private const val XIAOMI_MAGIC_BLIND_WINDOW_MS = 250L
     }
 
     private data class NotificationSettings(
